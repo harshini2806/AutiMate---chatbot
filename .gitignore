@@ -1,0 +1,15 @@
+# Virtual environment
+myenv/
+
+# Hugging Face API keys
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Chroma vector DB
+chroma/
+
+# Streamlit settings
+.streamlit/
