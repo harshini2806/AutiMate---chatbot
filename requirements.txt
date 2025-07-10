@@ -1,6 +1,28 @@
-langchain
-chromadb
+# Core framework
 streamlit
-huggingface_hub
+
+# LangChain core
+langchain
+langchain-community
+langchain-huggingface
+langchain-core
+
+# Vector database
+chromadb
+
+# Embeddings
 sentence-transformers
+
+# Hugging Face hub + client
+huggingface-hub
+transformers
+accelerate  # Often needed with transformers
+
+# Environment variable handling
 python-dotenv
+
+# Optional: If using markdown (.md) files as input
+markdown
+
+# Optional but recommended: typing support & cleaner logging
+tqdm
